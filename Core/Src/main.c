@@ -106,6 +106,7 @@ int main(void)
   MPU_Init();
   mpu_dmp_init();
   OLED_ShowString(4,2,"ok");
+    OLED_ShowString(4,3,"ok");
 
 
   /* USER CODE END 2 */
