@@ -108,7 +108,7 @@
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/OLED_Font.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
-		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/car_control.h">
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/car_control_new.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/dmpKey.h">
@@ -135,7 +135,7 @@
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/mpu6050.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
-		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/pos_spe_pid.h">
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/position_speed_pid.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Inc/stm32f1xx_hal_conf.h">
@@ -156,7 +156,7 @@
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/OLED.c">
 			<Option target="pid_car.elf"/>
 		</Unit>
-		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/car_control.c">
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/car_control_new.c">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/gpio.c">
@@ -177,7 +177,7 @@
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/mpu6050.c">
 			<Option target="pid_car.elf"/>
 		</Unit>
-		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/pos_spe_pid.c">
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/position_speed_pid.c">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/stm32f1xx_hal_msp.c">
@@ -208,6 +208,9 @@
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="pid_car.elf"/>
+		</Unit>
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/CMSIS/Include/cmsis_armcc.h">
@@ -273,6 +276,9 @@
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/CMSIS/LICENSE.txt">
+			<Option target="pid_car.elf"/>
+		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="pid_car.elf"/>
 		</Unit>
@@ -322,6 +328,9 @@
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="pid_car.elf"/>
+		</Unit>
+		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
 			<Option target="pid_car.elf"/>
 		</Unit>
 		<Unit filename="D:/cubemaxIDE/cliongongcheng/pid_car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">

@@ -200,29 +200,29 @@ Core/Src/OLED.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/OLED.c.s
 .PHONY : Core/Src/OLED.c.s
 
-Core/Src/car_control.obj: Core/Src/car_control.c.obj
-.PHONY : Core/Src/car_control.obj
+Core/Src/car_control_new.obj: Core/Src/car_control_new.c.obj
+.PHONY : Core/Src/car_control_new.obj
 
 # target to build an object file
-Core/Src/car_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj
-.PHONY : Core/Src/car_control.c.obj
+Core/Src/car_control_new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj
+.PHONY : Core/Src/car_control_new.c.obj
 
-Core/Src/car_control.i: Core/Src/car_control.c.i
-.PHONY : Core/Src/car_control.i
+Core/Src/car_control_new.i: Core/Src/car_control_new.c.i
+.PHONY : Core/Src/car_control_new.i
 
 # target to preprocess a source file
-Core/Src/car_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.i
-.PHONY : Core/Src/car_control.c.i
+Core/Src/car_control_new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.i
+.PHONY : Core/Src/car_control_new.c.i
 
-Core/Src/car_control.s: Core/Src/car_control.c.s
-.PHONY : Core/Src/car_control.s
+Core/Src/car_control_new.s: Core/Src/car_control_new.c.s
+.PHONY : Core/Src/car_control_new.s
 
 # target to generate assembly for a file
-Core/Src/car_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.s
-.PHONY : Core/Src/car_control.c.s
+Core/Src/car_control_new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.s
+.PHONY : Core/Src/car_control_new.c.s
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -368,29 +368,29 @@ Core/Src/mpu6050.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/mpu6050.c.s
 .PHONY : Core/Src/mpu6050.c.s
 
-Core/Src/pos_spe_pid.obj: Core/Src/pos_spe_pid.c.obj
-.PHONY : Core/Src/pos_spe_pid.obj
+Core/Src/position_speed_pid.obj: Core/Src/position_speed_pid.c.obj
+.PHONY : Core/Src/position_speed_pid.obj
 
 # target to build an object file
-Core/Src/pos_spe_pid.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj
-.PHONY : Core/Src/pos_spe_pid.c.obj
+Core/Src/position_speed_pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj
+.PHONY : Core/Src/position_speed_pid.c.obj
 
-Core/Src/pos_spe_pid.i: Core/Src/pos_spe_pid.c.i
-.PHONY : Core/Src/pos_spe_pid.i
+Core/Src/position_speed_pid.i: Core/Src/position_speed_pid.c.i
+.PHONY : Core/Src/position_speed_pid.i
 
 # target to preprocess a source file
-Core/Src/pos_spe_pid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.i
-.PHONY : Core/Src/pos_spe_pid.c.i
+Core/Src/position_speed_pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.i
+.PHONY : Core/Src/position_speed_pid.c.i
 
-Core/Src/pos_spe_pid.s: Core/Src/pos_spe_pid.c.s
-.PHONY : Core/Src/pos_spe_pid.s
+Core/Src/position_speed_pid.s: Core/Src/position_speed_pid.c.s
+.PHONY : Core/Src/position_speed_pid.s
 
 # target to generate assembly for a file
-Core/Src/pos_spe_pid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.s
-.PHONY : Core/Src/pos_spe_pid.c.s
+Core/Src/position_speed_pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pid_car.elf.dir\build.make CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.s
+.PHONY : Core/Src/position_speed_pid.c.s
 
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
@@ -898,9 +898,9 @@ help:
 	@echo ... Core/Src/OLED.obj
 	@echo ... Core/Src/OLED.i
 	@echo ... Core/Src/OLED.s
-	@echo ... Core/Src/car_control.obj
-	@echo ... Core/Src/car_control.i
-	@echo ... Core/Src/car_control.s
+	@echo ... Core/Src/car_control_new.obj
+	@echo ... Core/Src/car_control_new.i
+	@echo ... Core/Src/car_control_new.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -919,9 +919,9 @@ help:
 	@echo ... Core/Src/mpu6050.obj
 	@echo ... Core/Src/mpu6050.i
 	@echo ... Core/Src/mpu6050.s
-	@echo ... Core/Src/pos_spe_pid.obj
-	@echo ... Core/Src/pos_spe_pid.i
-	@echo ... Core/Src/pos_spe_pid.s
+	@echo ... Core/Src/position_speed_pid.obj
+	@echo ... Core/Src/position_speed_pid.i
+	@echo ... Core/Src/position_speed_pid.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s

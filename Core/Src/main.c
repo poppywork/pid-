@@ -26,9 +26,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "OLED.h"
-#include "car_control.h"
+#include "car_control_new.h"
 #include "AI.h"
-#include "pos_spe_pid.h"
+#include "position_speed_pid.h"
 #include "mpu6050.h"
 #include "inv_mpu.h"
 
@@ -36,7 +36,9 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+extern int wadawdawd;
+extern float yaw;
+extern int32_t previous_position_1;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -106,9 +108,9 @@ int main(void)
   MPU_Init();
   mpu_dmp_init();
   OLED_ShowString(4,2,"ok");
-    OLED_ShowString(4,3,"ok");
-
-
+  OLED_ShowString(4,3,"ok");
+  Go_Motor();
+  
   /* USER CODE END 2 */
 
   /* Infinite loop */

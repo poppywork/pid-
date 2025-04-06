@@ -6,7 +6,7 @@
 #include "AI.h"
 #include "tim.h"
 #include "OLED.h"
-#include"car_control.h"
+#include"car_control_new.h"
 #include"mpu6050.h"
 #include "inv_mpu.h"
 #define ki_max_output 300
@@ -34,6 +34,8 @@ float pid_calculate(PIDController *pid,float Real_num)//计算pid的值
     if(output<=-output_max)output=-output_max;
     return output;//-1000-1000
 }
+
+
 
 void PID_Init(PIDController *pid, float kp, float ki, float kd, float Target) {
     pid->kp = kp;

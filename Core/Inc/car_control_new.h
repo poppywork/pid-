@@ -1,9 +1,10 @@
 //
-// Created by 24319 on 2025/3/8.
+// Created by 24319 on 2025/3/25.
 //
 
-#ifndef PID_CAR_CAR_CONTROL_H
-#define PID_CAR_CAR_CONTROL_H
+
+#ifndef PID_CAR_CAR_CONTROL_NEW_H
+#define PID_CAR_CAR_CONTROL_NEW_H
 void set_right_speed(float Speed);
 void set_left_speed(float Speed);
 //----------------------------------------------------------------
@@ -22,4 +23,4 @@ void Start_PWM(void);
 void Stop_PWM(void);
 //---------------------------------------------------------------
 
-#endif //PID_CAR_CAR_CONTROL_H
+#endif //PID_CAR_CAR_CONTROL_NEW_H

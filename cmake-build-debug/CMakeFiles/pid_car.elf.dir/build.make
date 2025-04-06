@@ -110,19 +110,19 @@ CMakeFiles/pid_car.elf.dir/Core/Src/OLED.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/OLED.c.s"
 	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\OLED.c -o CMakeFiles\pid_car.elf.dir\Core\Src\OLED.c.s
 
-CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
-CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/car_control.c
-CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj: CMakeFiles/pid_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cubemaxIDE\cliongongcheng\pid_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj -MF CMakeFiles\pid_car.elf.dir\Core\Src\car_control.c.obj.d -o CMakeFiles\pid_car.elf.dir\Core\Src\car_control.c.obj -c D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control.c
+CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
+CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/car_control_new.c
+CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj: CMakeFiles/pid_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cubemaxIDE\cliongongcheng\pid_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj -MF CMakeFiles\pid_car.elf.dir\Core\Src\car_control_new.c.obj.d -o CMakeFiles\pid_car.elf.dir\Core\Src\car_control_new.c.obj -c D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control_new.c
 
-CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.i"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control.c > CMakeFiles\pid_car.elf.dir\Core\Src\car_control.c.i
+CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.i"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control_new.c > CMakeFiles\pid_car.elf.dir\Core\Src\car_control_new.c.i
 
-CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.s"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control.c -o CMakeFiles\pid_car.elf.dir\Core\Src\car_control.c.s
+CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.s"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\car_control_new.c -o CMakeFiles\pid_car.elf.dir\Core\Src\car_control_new.c.s
 
 CMakeFiles/pid_car.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
 CMakeFiles/pid_car.elf.dir/Core/Src/gpio.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/gpio.c
@@ -208,19 +208,19 @@ CMakeFiles/pid_car.elf.dir/Core/Src/mpu6050.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/mpu6050.c.s"
 	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\mpu6050.c -o CMakeFiles\pid_car.elf.dir\Core\Src\mpu6050.c.s
 
-CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
-CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/pos_spe_pid.c
-CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj: CMakeFiles/pid_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cubemaxIDE\cliongongcheng\pid_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj -MF CMakeFiles\pid_car.elf.dir\Core\Src\pos_spe_pid.c.obj.d -o CMakeFiles\pid_car.elf.dir\Core\Src\pos_spe_pid.c.obj -c D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\pos_spe_pid.c
+CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
+CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/position_speed_pid.c
+CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj: CMakeFiles/pid_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cubemaxIDE\cliongongcheng\pid_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj -MF CMakeFiles\pid_car.elf.dir\Core\Src\position_speed_pid.c.obj.d -o CMakeFiles\pid_car.elf.dir\Core\Src\position_speed_pid.c.obj -c D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\position_speed_pid.c
 
-CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.i"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\pos_spe_pid.c > CMakeFiles\pid_car.elf.dir\Core\Src\pos_spe_pid.c.i
+CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.i"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\position_speed_pid.c > CMakeFiles\pid_car.elf.dir\Core\Src\position_speed_pid.c.i
 
-CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.s"
-	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\pos_spe_pid.c -o CMakeFiles\pid_car.elf.dir\Core\Src\pos_spe_pid.c.s
+CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.s"
+	D:\ENV\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src\position_speed_pid.c -o CMakeFiles\pid_car.elf.dir\Core\Src\position_speed_pid.c.s
 
 CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/pid_car.elf.dir/flags.make
 CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: D:/cubemaxIDE/cliongongcheng/pid_car/Core/Src/stm32f1xx_hal_msp.c
@@ -520,14 +520,14 @@ pid_car_elf_OBJECTS = \
 "CMakeFiles/pid_car.elf.dir/Core/Src/AI.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/IIC.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/OLED.c.obj" \
-"CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj" \
+"CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/inv_mpu.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/mpu6050.c.obj" \
-"CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj" \
+"CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/pid_car.elf.dir/Core/Src/syscalls.c.obj" \
@@ -556,14 +556,14 @@ pid_car_elf_EXTERNAL_OBJECTS =
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/AI.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/IIC.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/OLED.c.obj
-pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/car_control.c.obj
+pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/car_control_new.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/gpio.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/i2c.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/inv_mpu.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/inv_mpu_dmp_motion_driver.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/main.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/mpu6050.c.obj
-pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/pos_spe_pid.c.obj
+pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/position_speed_pid.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/stm32f1xx_it.c.obj
 pid_car.elf: CMakeFiles/pid_car.elf.dir/Core/Src/syscalls.c.obj

@@ -1,13 +1,18 @@
 //
+// Created by 24319 on 2025/3/25.
+//
+
+#include "position_speed_pid.h"
+//
 // Created by 24319 on 2025/3/9.
 //
 
 #include <stdint-gcc.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "pos_spe_pid.h"
+#include "position_speed_pid.h"
 #include "AI.h"
-#include "car_control.h"
+#include "car_control_new.h"
 #include "OLED.h"
 //待改参数
 #define TARGET_DISTANCE 10  //目标距离 单位米
@@ -19,7 +24,7 @@
 #define SPEED_KP 1.2
 #define SPEED_KI 0.07
 #define SPEED_KD 0.01
-#define ERROR_CAR_ANGLE 5//用于小车两边车轮速度不同，通过MPU6050给一个偏角
+#define ERROR_CAR_ANGLE 6//用于小车两边车轮速度不同，通过MPU6050给一个偏角
 extern float yaw;
 extern uint8_t display_buf[20];
 PIDController position_pid_1, speed_pid_1;
@@ -80,11 +85,7 @@ void pos_spe_pid(void)
 //    OLED_ShowString(3,2,display_buf);
 //    sprintf((char *)display_buf,"%d  ",current_speed_2);
 //    OLED_ShowString(4,2,display_buf);
-    self_set_speed(speed_output_1,speed_output_2);
-    if (abs(TARGET_DISTANCE*3750 - current_position_1) < 50 || abs(TARGET_DISTANCE*3600 - current_position_2) < 50) {
-        Stop_PWM();
-        speed_output_1=0;
-        speed_output_2=0;
-    }
+//    self_set_speed(speed_output_1,speed_output_2);
+//
     MPU6050();
 }

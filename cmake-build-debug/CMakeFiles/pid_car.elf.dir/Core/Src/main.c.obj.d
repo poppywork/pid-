@@ -40,10 +40,10 @@ CMakeFiles/pid_car.elf.dir/Core/Src/main.c.obj: \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/gpio.h \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/OLED.h \
  d:\env\env-windows\tools\gnu_gcc\arm_gcc\mingw\lib\gcc\arm-none-eabi\10.3.1\include\stdint-gcc.h \
- D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/car_control.h \
+ D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/car_control_new.h \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/AI.h \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/tim.h \
- D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/pos_spe_pid.h \
+ D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/position_speed_pid.h \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/mpu6050.h \
  D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc/IIC.h \
  d:\env\env-windows\tools\gnu_gcc\arm_gcc\mingw\arm-none-eabi\include\inttypes.h \

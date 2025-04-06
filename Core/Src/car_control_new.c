@@ -1,8 +1,13 @@
 //
+// Created by 24319 on 2025/3/25.
+//
+
+#include "car_control_new.h"
+//
 // Created by 24319 on 2025/3/8.
 //
 
-#include "car_control.h"
+#include "car_control_new.h"
 #include "stm32f1xx_hal.h"
 #include "tim.h"
 #define MIDDLE_SPEED 400
@@ -11,6 +16,7 @@
 
 
 //——————————————————————————————————————————————————————————————————————————————
+int wadawdawd;
 void set_right_speed(float Speed)//设置方向
 {
     if (Speed >= 0) {
@@ -43,8 +49,8 @@ void self_set_speed(float right,float left)
 }
 void Go_Motor(void)
 {
-    set_right_speed(MIDDLE_SPEED);
-    set_left_speed(MIDDLE_SPEED);
+    set_right_speed(200);
+    set_left_speed(200);
 }
 void Stop_Motor(void)
 {
@@ -68,8 +74,8 @@ void Turn_Right_Slower(void)
 }
 void Turn_Left_Motor(void)
 {
-    set_right_speed(MIDDLE_SPEED);
-    set_left_speed(0);
+    set_right_speed(200);
+    set_left_speed(100);
 }
 void Turn_Right_Motor(void)
 {
