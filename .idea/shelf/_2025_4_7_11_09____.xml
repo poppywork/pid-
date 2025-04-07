@@ -1,0 +1,9 @@
+<changelist name="在进行签出之前于_2025_4_7_上午11_09_取消提交了更改_[更改]" date="1743995398244" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2025_4_7_上午11_09_取消提交了更改_[更改]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行签出之前于 2025/4/7 上午11:09 取消提交了更改 [更改]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/pid_car.elf" />
+    <option name="AFTER_PATH" value="cmake-build-debug/pid_car.elf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2025_4_7_上午11_09_取消提交了更改_[更改]/pid_car.elf" />
+  </binary>
+</changelist>

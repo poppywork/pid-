@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="pid_car" targetName="pid_car.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8bb0cdf-0f81-4f77-979e-afb60694d07c" name="更改" comment="cmake修改" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="24319 &lt;2431952330@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2u1NUjQTkxjybs7SGM14cCtCULF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.pid_car.elf.executor&quot;: &quot;Run&quot;,
+    &quot;OpenOCD 下载并运行.OCD pid_car.executor&quot;: &quot;Run&quot;,
+    &quot;OpenOCD 下载并运行.pid_car.elf.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/cubemaxIDE/cliongongcheng/pid_car/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CLionExternalConfigurable&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cubemaxIDE\cliongongcheng\pid_car\Core\Src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\cubemaxIDE\cliongongcheng\pid_car\Core\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD pid_car">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pid_car.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pid_car" TARGET_NAME="pid_car.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pid_car" RUN_TARGET_NAME="pid_car.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="未命名" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pid_car" TARGET_NAME="未命名" CONFIG_NAME="未命名" version="1" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/pid_car.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\cfj\cfj\stm32f1.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.pid_car.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD pid_car" />
+      <item itemvalue="OpenOCD 下载并运行.未命名" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f8bb0cdf-0f81-4f77-979e-afb60694d07c" name="更改" comment="" />
+      <created>1741412137684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741412137684</updated>
+      <workItem from="1741412138774" duration="4407000" />
+      <workItem from="1741416683860" duration="4656000" />
+      <workItem from="1741421942823" duration="5343000" />
+      <workItem from="1741433893262" duration="302000" />
+      <workItem from="1741434213084" duration="151000" />
+      <workItem from="1741434638061" duration="3296000" />
+      <workItem from="1741438965851" duration="1377000" />
+      <workItem from="1741450660089" duration="45000" />
+      <workItem from="1741496015769" duration="7000" />
+      <workItem from="1741496047908" duration="7000" />
+      <workItem from="1741496370470" duration="25919000" />
+      <workItem from="1741570286635" duration="1712000" />
+      <workItem from="1741572085072" duration="5162000" />
+      <workItem from="1741577883749" duration="3740000" />
+      <workItem from="1741588584406" duration="4057000" />
+      <workItem from="1741617573318" duration="76000" />
+      <workItem from="1741617659344" duration="36000" />
+      <workItem from="1742009372492" duration="369000" />
+      <workItem from="1742010023203" duration="548000" />
+      <workItem from="1742010578694" duration="238000" />
+      <workItem from="1742010821231" duration="43000" />
+      <workItem from="1742010869693" duration="206000" />
+      <workItem from="1742011081071" duration="62000" />
+      <workItem from="1742011187713" duration="322000" />
+      <workItem from="1742011516356" duration="82000" />
+      <workItem from="1742011603678" duration="303000" />
+      <workItem from="1742013657349" duration="126000" />
+      <workItem from="1742014260564" duration="726000" />
+      <workItem from="1742016025649" duration="8000" />
+      <workItem from="1742115764788" duration="100000" />
+      <workItem from="1742824398629" duration="2818000" />
+      <workItem from="1742829748414" duration="11000" />
+      <workItem from="1742873089806" duration="23000" />
+      <workItem from="1742876791052" duration="77000" />
+      <workItem from="1742877072207" duration="105000" />
+      <workItem from="1742877714992" duration="209000" />
+      <workItem from="1742877999276" duration="611000" />
+      <workItem from="1742878727094" duration="436000" />
+      <workItem from="1742879283952" duration="757000" />
+      <workItem from="1742901502919" duration="3047000" />
+      <workItem from="1742908449751" duration="7000" />
+      <workItem from="1743217884582" duration="29000" />
+      <workItem from="1743240603099" duration="24000" />
+      <workItem from="1743298726497" duration="2076000" />
+      <workItem from="1743584286594" duration="12000" />
+      <workItem from="1743584361599" duration="16000" />
+      <workItem from="1743586728029" duration="2000" />
+      <workItem from="1743757785560" duration="821000" />
+      <workItem from="1743768190258" duration="47000" />
+      <workItem from="1743838712843" duration="40000" />
+      <workItem from="1743930922942" duration="54000" />
+      <workItem from="1743931090252" duration="178000" />
+      <workItem from="1743931276452" duration="606000" />
+      <workItem from="1743993196959" duration="14000" />
+      <workItem from="1743993460725" duration="1419000" />
+      <workItem from="1743995084582" duration="293000" />
+      <workItem from="1743995385348" duration="146000" />
+      <workItem from="1743995543329" duration="346000" />
+      <workItem from="1743995950716" duration="60000" />
+      <workItem from="1743996025367" duration="51000" />
+      <workItem from="1743996083397" duration="85000" />
+      <workItem from="1743996178064" duration="103000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1741436475259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741436475259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1741438838162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741438838162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <option name="closed" value="true" />
+      <created>1742009438182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009438182</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <option name="closed" value="true" />
+      <created>1742009531150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009531150</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1742009571677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009571677</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <option name="closed" value="true" />
+      <created>1742009647173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009647173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test1">
+      <option name="closed" value="true" />
+      <created>1742010122527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742010122527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <option name="closed" value="true" />
+      <created>1742011307191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011307191</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test">
+      <option name="closed" value="true" />
+      <created>1742011333102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011333102</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <option name="closed" value="true" />
+      <created>1742011373363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011373363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test2">
+      <option name="closed" value="true" />
+      <created>1742011676395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011676395</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test3">
+      <option name="closed" value="true" />
+      <created>1742011847410</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011847410</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test3">
+      <option name="closed" value="true" />
+      <created>1742011871196</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742011871196</updated>
+    </task>
+    <task id="LOCAL-00014" summary="PID小车">
+      <option name="closed" value="true" />
+      <created>1743931113486</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743931113486</updated>
+    </task>
+    <task id="LOCAL-00015" summary="PID小车">
+      <option name="closed" value="true" />
+      <created>1743994371487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743994371487</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cmake修改">
+      <option name="closed" value="true" />
+      <created>1743996131103</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743996131103</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test1" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="test3" />
+    <MESSAGE value="PID小车" />
+    <MESSAGE value="cmake修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="cmake修改" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
